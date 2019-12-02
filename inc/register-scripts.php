@@ -30,6 +30,13 @@ if(!function_exists('wp_ms_form_register_scripts')) :
       '4.7.0'
     );
 
+
+     // Custom css
+     wp_register_style(
+       'wp-ms-form-custom-css',
+       MSF_PLUGIN_URL.'assets/css/custom.css'
+     );
+
     // Bootstrap js
     wp_register_script(
       'wp-ms-form-bootstrap-js',

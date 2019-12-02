@@ -12,6 +12,8 @@ if(!function_exists('wp_ms_form_shortcode')) :
     wp_enqueue_style('wp-ms-form-tempusdominus-css');
     // add tempusdominus css
     wp_enqueue_style('wp-ms-form-fontawesome-css');
+    // add custom css
+    wp_enqueue_style('wp-ms-form-custom-css');
 
     // add jquery from wordpress resource
     wp_enqueue_script('jquery');

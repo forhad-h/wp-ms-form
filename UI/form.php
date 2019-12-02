@@ -13,5 +13,9 @@
       <?php include_once MSF_PLUGIN_PATH."UI/content/content-7.php"; ?>
       <?php include_once MSF_PLUGIN_PATH."UI/content/content-8.php"; ?>
     </div>
+    <div class="ms_change_btn_group">
+      <button type="button" class="btn btn-sm btn-primary" id="backBtn">Back</button>
+      <button type="button" class="btn btn-sm btn-primary" id="nextBtn">Next</button>
+    <div>
   </form>
 </div>

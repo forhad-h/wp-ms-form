@@ -5,28 +5,33 @@
   <h6>At fault party</h6>
 
   <div class="form-group">
-    <label>Make: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Make: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Model: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Model: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Registration Number: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Registration Number: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Year <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Year <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Colour <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Colour <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <hr />
@@ -35,26 +40,30 @@
 
 
   <div class="form-group">
-    <label>Insurance Company Name: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Insurance Company Name: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Type of Cover: <span>*</span></label>
-    <select class="form-control">
+    <label>Type of Cover: <span class="ms-required">*</span></label>
+    <select class="form-control" data-validate="required">
       <option>Comprehensive</option>
       <option>Third Party</option>
     </select>
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Policy Number: <span>*</span></label>
-    <input type="number" class="form-control">
+    <label>Policy Number: <span class="ms-required">*</span></label>
+    <input type="number" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Claim Number: <span>*</span></label>
-    <input type="number" class="form-control">
+    <label>Claim Number: <span class="ms-required">*</span></label>
+    <input type="number" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
 </div>

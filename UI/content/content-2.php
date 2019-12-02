@@ -3,28 +3,33 @@
 <div class="tab-pane fade" id="wpmsf-content-2" role="tabpanel" aria-labelledby="wpmsf-tab-2">
   <h2>Your Motor Vehicle</h2>
   <div class="form-group">
-    <label>Make: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Make: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Model: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Model: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Registration Number: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Registration Number: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Year <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Year <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Colour <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Colour <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" placeholder="YYYY" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
-  
+
 </div>

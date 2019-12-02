@@ -10,18 +10,20 @@
     <h2>Driver of the Vehicle</h2>
 
     <div class="form-group">
-      <label>Title: <span>*</span></label>
-      <select class="form-control">
+      <label>Title: <span class="ms-required">*</span></label>
+      <select class="form-control" data-validate="required">
         <option>Mr</option>
         <option>Mrs</option>
         <option>Ms</option>
         <option>Miss</option>
       </select>
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
-      <label>First name <span>*</span></label>
-      <input type="text" class="form-control">
+      <label>First name <span class="ms-required">*</span></label>
+      <input type="text" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
@@ -30,28 +32,33 @@
     </div>
 
     <div class="form-group">
-      <label>Last Name <span>*</span></label>
-      <input type="text" class="form-control">
+      <label>Last Name <span class="ms-required">*</span></label>
+      <input type="text" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
-      <label>Address <span>*</span></label>
-      <input type="text" class="form-control">
+      <label>Address <span class="ms-required">*</span></label>
+      <input type="text" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
-      <label>Postcode <span>*</span></label>
-      <input type="number" class="form-control">
+      <label>Postcode <span class="ms-required">*</span></label>
+      <input type="number" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
-      <label>Mobile <span>*</span></label>
-      <input type="number" class="form-control">
+      <label>Mobile <span class="ms-required">*</span></label>
+      <input type="number" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
-      <label>Home Phone <span>*</span></label>
-      <input type="number" class="form-control">
+      <label>Home Phone <span class="ms-required">*</span></label>
+      <input type="number" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
@@ -60,12 +67,14 @@
     </div>
 
     <div class="form-group">
-      <label>Email: <span>*</span></label>
-      <input type="email" class="form-control">
+      <label>Email: <span class="ms-required">*</span></label>
+      <input type="email" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 
     <div class="form-group">
-      <label>Drivers License Number and Type: <span>*</span></label>
-      <input type="text" class="form-control">
+      <label>Drivers License Number and Type: <span class="ms-required">*</span></label>
+      <input type="text" class="form-control" data-validate="required">
+      <div class="ms-required-error">This field is required.</div>
     </div>
 </div>

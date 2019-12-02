@@ -4,26 +4,30 @@
   <h2>Insurance Details for the Vehicle</h2>
 
   <div class="form-group">
-    <label>Insurance Company Name: <span>*</span></label>
-    <input type="text" class="form-control">
+    <label>Insurance Company Name: <span class="ms-required">*</span></label>
+    <input type="text" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Type of Cover: <span>*</span></label>
-    <select class="form-control">
+    <label>Type of Cover: <span class="ms-required">*</span></label>
+    <select class="form-control" data-validate="required">
       <option>Comprehensive</option>
       <option>Third Party</option>
     </select>
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Policy Number: <span>*</span></label>
-    <input type="number" class="form-control">
+    <label>Policy Number: <span class="ms-required">*</span></label>
+    <input type="number" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
-    <label>Claim Number: <span>*</span></label>
-    <input type="number" class="form-control">
+    <label>Claim Number: <span class="ms-required">*</span></label>
+    <input type="number" class="form-control" data-validate="required">
+    <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
