@@ -19,6 +19,7 @@
   // initialize variables
   var isShowError = false;
   var isValid = true;
+  var items = [];
   var step = 1;
 
   // disable original tabs
@@ -82,7 +83,8 @@
     }
   });
 
-  // manage conditional fields
+  /* manage conditional fields */
+
   // show conditional fields content
   $('.ms_cond_show_btn').each(function() {
     $(this).on('click', function() {
@@ -101,6 +103,31 @@
     })
   })
 
+  // genrate dynamic fields
+  $('.ms-fields-generator').on('change', function() {
+    var id = $(this).attr('data-target');
+    console.log(id);
+    if (Number($(this).val())) {
+      items = []
+      for (var i = 0; i < +$(this).val(); i++) {
+        var item = $('.ws_cond_single_fields_main_' + id).first().clone()
+          .removeClass('ws_cond_single_fields_main_' + id)
+          .addClass('ws_cond_single_fields');
+
+        item.find('.ms_car_no').text(i + 1)
+        items.push(item);
+      }
+      $('#ws-cond-select-wrapper-' + id).empty();
+      console.log('Items', items)
+      for (var i = 0; i < items.length; i++) {
+        console.log('single items', items[i])
+        items[i].appendTo('#ws-cond-select-wrapper-' + id);
+      }
+    } else {
+      $('#ws-cond-select-wrapper-' + id).empty();
+    }
+  });
+
   // function to hide or show step buttons in specific state
   function hideShowStepBtns(stepm) {
     var minItem = 1;
@@ -113,8 +140,10 @@
     }
     if (step === maxItem) {
       $("#nextBtn").css('display', 'none');
+      $("#submitBtn").css('display', 'inline-block');
     } else {
       $("#nextBtn").css('display', 'inline-block');
+      $("#submitBtn").css('display', 'none');
     }
   }
 
@@ -133,7 +162,7 @@
     }
     return isValid
   }
-
+  // validation on key up
   $("[data-validate]").on('keyup', function() {
     if (isShowError) {
       if (!$(this).val()) {
@@ -144,3 +173,31 @@
     }
   });
 })(jQuery);
+
+// Fabric js implementation for free hand drawing
+(function() {
+
+  var canvas = new fabric.Canvas('ms-canvas', {
+    isDrawingMode: true
+  });
+  var clearEl = document.getElementById('clear-canvas');
+
+  fabric.Object.prototype.transparentCorners = true;
+
+  clearEl.onclick = function() {
+    canvas.clear();
+  };
+
+  if (canvas.freeDrawingBrush) {
+    canvas.freeDrawingBrush.color = '#135294';
+    canvas.freeDrawingBrush.width = 2;
+  }
+
+})();
+
+
+
+
+
+
+// end

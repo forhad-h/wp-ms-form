@@ -23,6 +23,8 @@ if(!function_exists('wp_ms_form_shortcode')) :
     wp_enqueue_script( 'wp-ms-form-moment-js');
     // add tempusdominus js
     wp_enqueue_script( 'wp-ms-form-tempusdominus-js');
+    // add fabric js
+    wp_enqueue_script( 'wp-ms-form-fabric-js');
     // add custom js
     wp_enqueue_script( 'wp-ms-form-custom-js');
 

@@ -64,6 +64,15 @@ if(!function_exists('wp_ms_form_register_scripts')) :
       true
     );
 
+    // Fabric js
+    wp_register_script(
+      'wp-ms-form-fabric-js',
+      'https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.5.0/fabric.min.js',
+      [],
+      '3.5.0',
+      true
+    );
+
    // Custom js
    wp_register_script(
      'wp-ms-form-custom-js',

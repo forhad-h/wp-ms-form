@@ -16,6 +16,7 @@
     <div class="ms_change_btn_group">
       <button type="button" class="btn btn-sm btn-primary" id="backBtn">Back</button>
       <button type="button" class="btn btn-sm btn-primary" id="nextBtn">Next</button>
+      <button type="submit" class="btn btn-sm btn-primary" id="submitBtn">Submit</button>
     <div>
   </form>
 </div>

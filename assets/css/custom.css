@@ -13,3 +13,7 @@
 .ms_cond_content {
   display: none;
 }
+
+div[class*="ws_cond_single_fields_main"] {
+  display: none;
+}
