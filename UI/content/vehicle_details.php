@@ -4,31 +4,31 @@
   <h2>Your Motor Vehicle</h2>
   <div class="form-group">
     <label>Make: <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" data-validate="required">
+    <input type="text" class="form-control" data-validate="required" name="vd_make" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
     <label>Model: <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" data-validate="required">
+    <input type="text" class="form-control" data-validate="required" name="vd_model" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
     <label>Registration Number: <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" data-validate="required">
+    <input type="text" class="form-control" data-validate="required" name="vd_reg_number" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
     <label>Year <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" data-validate="required">
+    <input type="text" class="form-control" data-validate="required" name="vd_year" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
     <label>Colour <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" placeholder="YYYY" data-validate="required">
+    <input type="text" class="form-control" placeholder="YYYY" data-validate="required" name="vd_colour" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 

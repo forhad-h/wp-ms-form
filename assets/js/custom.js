@@ -20,7 +20,7 @@
   var isShowError = false;
   var isValid = true;
   var items = [];
-  var step = 1;
+  var step = 8;
 
   // disable original tabs
   $("#WPMSFormTab").find('.nav-link').css('cursor', 'initial');
@@ -82,6 +82,19 @@
       }, 200)
     }
   });
+
+  /*Submit form*/
+  $("#submitBtn").on('click', function(e) {
+    e.preventDefault();
+    if (validateFields(step)) {
+
+      var dataUrl = document.getElementById('ms-canvas').toDataURL();
+      $("#ms-canvas-data-url").attr('value', dataUrl);
+
+      document.wp_ms_form.submit();
+      step = 1;
+    }
+  })
 
   /* manage conditional fields */
 

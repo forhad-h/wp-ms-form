@@ -1,7 +1,8 @@
 <?php
 /*
  * Plugin Name: WP Multi Step Form
- * Author: Md. Forhad Hosain\
+ * Description: Multistep form. Shortcode: <strong>[wp_ms_form]</strong>
+ * Author: Md. Forhad Hosain
  * Text Domain: wp-ms-form
 */
 defined('ABSPATH') or die("Prevent direct access!");
