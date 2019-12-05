@@ -18,17 +18,20 @@
   </div>
 
   <label>Is your car Drivable: <span class="ms-required">*</span></label>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" id="isDrivable" value="yes" name="ad_drivable" >
-    <label class="form-check-label" for="isDrivable">
-      yes
-    </label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" id="isNotDrivable" value="no" checked name="ad_drivable" >
-    <label class="form-check-label" for="isNotDrivable">
-      no
-    </label>
+
+  <div class="ms_radio_btn_group">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" id="isDrivable" value="yes" name="ad_drivable" >
+      <label class="form-check-label" for="isDrivable">
+        yes
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" id="isNotDrivable" value="no" checked name="ad_drivable" >
+      <label class="form-check-label" for="isNotDrivable">
+        no
+      </label>
+    </div>
   </div>
 
 
@@ -55,17 +58,19 @@
 
 
   <label>Did any party admit liability at the scene? <span class="ms-required">*</span></label>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_show_btn" type="radio" id="isLiableParty" value="yes" data-target="2" name="ad_liable_party" >
-    <label class="form-check-label" for="isLiableParty">
-      yes
-    </label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotLiableParty" value="no" data-target="2" checked name="ad_liable_party" >
-    <label class="form-check-label" for="isNotLiableParty">
-      no
-    </label>
+  <div class="ms_radio_btn_group">
+    <div class="form-check">
+      <input class="form-check-input ms_cond_show_btn" type="radio" id="isLiableParty" value="yes" data-target="2" name="ad_liable_party" >
+      <label class="form-check-label" for="isLiableParty">
+        yes
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotLiableParty" value="no" data-target="2" checked name="ad_liable_party" >
+      <label class="form-check-label" for="isNotLiableParty">
+        no
+      </label>
+    </div>
   </div>
   <div class="ms_cond_content" id="ms-cond-content-2">
     <div class="form-group">
@@ -75,18 +80,22 @@
   </div>
 
   <label>Did the police attend? <span class="ms-required">*</span></label>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_show_btn" type="radio" id="isPoliceAttend" value="yes" data-target="3" name="ad_police_attend" >
-    <label class="form-check-label" for="isPoliceAttend">
-      yes
-    </label>
+
+  <div class="ms_radio_btn_group">
+    <div class="form-check">
+      <input class="form-check-input ms_cond_show_btn" type="radio" id="isPoliceAttend" value="yes" data-target="3" name="ad_police_attend" >
+      <label class="form-check-label" for="isPoliceAttend">
+        yes
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPoliceAttend" value="no" data-target="3" checked name="ad_police_attend" >
+      <label class="form-check-label" for="isNotPoliceAttend">
+        no
+      </label>
+    </div>
   </div>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPoliceAttend" value="no" data-target="3" checked name="ad_police_attend" >
-    <label class="form-check-label" for="isNotPoliceAttend">
-      no
-    </label>
-  </div>
+
   <div class="ms_cond_content" id="ms-cond-content-3">
       <h2>If yes displays below info</h2>
       <div class="form-group">
@@ -104,17 +113,20 @@
   </div>
 
   <label>Were there any witnesses? <span class="ms-required">*</span></label>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_show_btn" type="radio" id="isWitness" value="yes" data-target="4" name="ad_witness" >
-    <label class="form-check-label" for="isWitness">
-      yes
-    </label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotWitness" value="no" data-target="4" checked name="ad_witness" >
-    <label class="form-check-label" for="isNotWitness">
-      no
-    </label>
+
+  <div class="ms_radio_btn_group">
+    <div class="form-check">
+      <input class="form-check-input ms_cond_show_btn" type="radio" id="isWitness" value="yes" data-target="4" name="ad_witness" >
+      <label class="form-check-label" for="isWitness">
+        yes
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotWitness" value="no" data-target="4" checked name="ad_witness" >
+      <label class="form-check-label" for="isNotWitness">
+        no
+      </label>
+    </div>
   </div>
 
   <div class="ms_cond_content" id="ms-cond-content-4">
@@ -125,18 +137,20 @@
 
     <label>Were there any passengers aged 15 or over in your car that were also witnesses?</label>
 
-    <div class="form-check">
-      <input class="form-check-input ms_cond_show_btn" type="radio" id="isPassengers" value="yes" data-target="5" name="ad_passengers" >
-      <label class="form-check-label" for="isPassengers">
-        yes
-      </label>
-    </div>
+    <div class="ms_radio_btn_group">
+      <div class="form-check">
+        <input class="form-check-input ms_cond_show_btn" type="radio" id="isPassengers" value="yes" data-target="5" name="ad_passengers" >
+        <label class="form-check-label" for="isPassengers">
+          yes
+        </label>
+      </div>
 
-    <div class="form-check">
-      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPassengers" value="no" data-target="5" checked name="ad_passengers" >
-      <label class="form-check-label" for="isNotPassengers">
-        no
-      </label>
+      <div class="form-check">
+        <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPassengers" value="no" data-target="5" checked name="ad_passengers" >
+        <label class="form-check-label" for="isNotPassengers">
+          no
+        </label>
+      </div>
     </div>
 
     <div class="ms_cond_content" id="ms-cond-content-5">

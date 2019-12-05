@@ -78,7 +78,7 @@ if(!function_exists('wp_ms_form_register_scripts')) :
      'wp-ms-form-custom-js',
      MSF_PLUGIN_URL.'assets/js/custom.js',
      ['jquery'],
-     '',
+     '1.0.2',
      true
    );
 

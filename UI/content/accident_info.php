@@ -3,17 +3,20 @@
 <div class="tab-pane fade" id="wpmsf-content-3" role="tabpanel" aria-labelledby="wpmsf-tab-3">
   <h2>Accident Information</h2>
   <p>Driver of Your Vehicle (if vehicle was being driven at the time of the incident):</p>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_hide_btn" type="radio" id="AIitWasMe" value="me" checked data-target="1" name="ai_me_or_not">
-    <label class="form-check-label" for="AIitWasMe" data-target="1">
-      It was me
-    </label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input ms_cond_show_btn" type="radio" id="AIitWasntMe" value="not-me" data-target="1" name="ai_me_or_not">
-    <label class="form-check-label" for="AIitWasntMe">
-      It wasn't me
-    </label>
+
+  <div class="ms_radio_btn_group">
+    <div class="form-check">
+      <input class="form-check-input ms_cond_hide_btn" type="radio" id="AIitWasMe" value="me" checked data-target="1" name="ai_me_or_not">
+      <label class="form-check-label" for="AIitWasMe" data-target="1">
+        It was me
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input ms_cond_show_btn" type="radio" id="AIitWasntMe" value="not-me" data-target="1" name="ai_me_or_not">
+      <label class="form-check-label" for="AIitWasntMe">
+        It wasn't me
+      </label>
+    </div>
   </div>
 
 

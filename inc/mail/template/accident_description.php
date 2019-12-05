@@ -2,11 +2,13 @@
 
 $ad_all_items = '';
 
+
 for( $i = 0; $i < (int) $ad_witness_num; $i++) {
+  $witness_amount = $i + 1;
   $ad_all_items .= <<<ADSINGLE
       <div class="single_item">
           <tr>
-              <td class="col1"><strong>Witness {$i}:</strong></td>
+              <td class="col1"><strong>Witness {$witness_amount}:</strong></td>
               <td class="col2"></td>
           </tr>\r\n
 
@@ -94,7 +96,7 @@ $accident_description = <<<ACCIDENTDESCRIPTION
                 </tr>\r\n
                 <tr>
                     <td class="col1">Diagram of the accident using street names and signals: </td>
-                    <td class="col2"><strong class="blue_dark"><img src="{$ad_diagram}"/></strong></td>
+                    <td class="col2"><strong class="blue_dark">diagram.png</strong></td>
                 </tr>\r\n
                 <tr>
                     <td class="col1">Description of Accident: </td>

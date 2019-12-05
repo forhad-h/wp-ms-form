@@ -3,10 +3,11 @@
 $ci_all_items = '';
 
 for( $i = 0; $i < (int) $ci_cars_num; $i++) {
+  $car_amount = $i + 1;
   $ci_all_items .= <<<CISINGLE
       <div class="single_item">
           <tr>
-              <td class="col1"><strong>Car {$i}:</strong></td>
+              <td class="col1"><strong>Car {$car_amount}:</strong></td>
               <td class="col2"></td>
           </tr>\r\n
 

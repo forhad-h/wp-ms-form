@@ -20,7 +20,7 @@
   var isShowError = false;
   var isValid = true;
   var items = [];
-  var step = 8;
+  var step = 1;
 
   // disable original tabs
   $("#WPMSFormTab").find('.nav-link').css('cursor', 'initial');
@@ -119,7 +119,6 @@
   // genrate dynamic fields
   $('.ms-fields-generator').on('change', function() {
     var id = $(this).attr('data-target');
-    console.log(id);
     if (Number($(this).val())) {
       items = []
       for (var i = 0; i < +$(this).val(); i++) {
@@ -131,9 +130,7 @@
         items.push(item);
       }
       $('#ws-cond-select-wrapper-' + id).empty();
-      console.log('Items', items)
       for (var i = 0; i < items.length; i++) {
-        console.log('single items', items[i])
         items[i].appendTo('#ws-cond-select-wrapper-' + id);
       }
     } else {

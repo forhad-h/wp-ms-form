@@ -6,9 +6,11 @@ $styles = <<<STYLES
             padding-left: 20px;
             padding-right: 20px;
         }
-        h3 {
-            color: #103465;
-            font-size: 18px;
+        h4 {
+          font-size: 22px;
+        }\r\n
+        h5 {
+          font-size: 18px;
         }\r\n
         .blue_dark {
             color: #103465;
