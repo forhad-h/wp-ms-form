@@ -1,0 +1,211 @@
+#WPMSFormTab {
+  margin-left: 0;
+  flex-wrap: initial;
+}
+
+.wp_ms_form_container h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.wp_ms_form_container label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.wp_ms_form_container .ms-required-error {
+  color: #f00;
+}
+
+.wp_ms_form_container .ms-hint {
+  font-weight: 400;
+}
+
+.nav-tabs .nav-link {
+  color: #ccc;
+  font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="password"], form input[type="email"], form input[type="url"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="datetime"], form input[type="datetime-local"], form input[type="week"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="color"], form select, form textarea {
+  max-width: 100%;
+  height: 34px;
+  min-height: 34px;
+  font-size: 14px;
+}
+
+.wp_ms_form_container form select {
+  font-size: 14px !important;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav-tabs>li>a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.nav>li {
+  position: relative;
+  display: block;
+}
+
+.ms_change_btn_group {
+  overflow: hidden;
+}
+
+.ms_change_btn_group #backBtn {
+  float: left;
+}
+
+.ms_change_btn_group #nextBtn,
+.ms_change_btn_group #submitBtn {
+  float: right;
+}
+
+.ms_change_btn_group button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+  background-image: -webkit-linear-gradient(top, #337ab7 0, #265a88 100%);
+  background-image: -o-linear-gradient(top, #337ab7 0, #265a88 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#265a88));
+  background-image: linear-gradient(to bottom, #337ab7 0, #265a88 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: #245580;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  transition: 0.15s linear;
+  margin-top: 5px;
+}
+
+.ms_change_btn_group button:hover {
+  background-color: #265a88;
+  background-position: 0 -15px;
+  border-color: #204d74;
+}
+
+.ms_change_btn_group button:active,
+.ms_change_btn_group button:focus {
+  background-color: #093174 !important;
+  border-color: #245580 !important;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125) !important;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125) !important;
+}
+
+.bootstrap-datetimepicker-widget {
+  width: 304px !important;
+}
+
+.wp_ms_form_container p {
+  font-size: 14px;
+}
+
+.ms-required-error {
+  font-size: 14px;
+}
+
+.ms_radio_btn_group {
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.ms_radio_btn_group label {
+  margin-left: 5px;
+}
+
+.ms_radio_btn_group .form-check {
+  margin-right: 15px;
+}
+
+.wp_ms_form_container .form-group {
+  margin-bottom: 15px;
+}
+
+.wp_ms_form_container h6 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wp_ms_form_container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.wp_ms_form_container strong {
+  font-size: 14px;
+}
+
+.wp_ms_form_container hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ms_upload_fields input {
+  display: block;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.ms_canvas_clear_btn {
+  width: 432px;
+  text-align: right;
+}
+
+.ms_canvas_clear_btn button {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.wp_ms_form_container textarea {
+  height: 56px;
+}

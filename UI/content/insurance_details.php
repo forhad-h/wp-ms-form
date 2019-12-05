@@ -30,14 +30,18 @@
     <div class="ms-required-error">This field is required.</div>
   </div>
 
-  <div class="form-group">
-    <label>Registration Papers: (allowed file formats: docx, pdf)</label>
-    <input type="file" name="id_reg_papers" >
+  <div class="ms_upload_fields">
+    <div class="form-group">
+      <label>Registration Papers: <span class="ms-hint">(allowed file formats: docx, pdf)</span></label>
+      <input type="file" name="id_reg_papers" >
+    </div>
   </div>
 
-  <div class="form-group">
-    <label>Driver's License Scan Number: (allowed file formats: docx, pdf)</label>
-    <input type="file" name="id_licencse_scan" >
+  <div class="ms_upload_fields">
+    <div class="form-group">
+      <label>Driver's License Scan Number: <span class="ms-hint">(allowed file formats: docx, pdf)</span></label>
+      <input type="file" name="id_licencse_scan" >
+    </div>
   </div>
 
 </div>

@@ -21,15 +21,15 @@
 
   <div class="ms_radio_btn_group">
     <div class="form-check">
-      <input class="form-check-input" type="radio" id="isDrivable" value="yes" name="ad_drivable" >
+      <input class="form-check-input" type="radio" id="isDrivable" value="Yes" name="ad_drivable" >
       <label class="form-check-label" for="isDrivable">
-        yes
+        Yes
       </label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" id="isNotDrivable" value="no" checked name="ad_drivable" >
+      <input class="form-check-input" type="radio" id="isNotDrivable" value="No" checked name="ad_drivable" >
       <label class="form-check-label" for="isNotDrivable">
-        no
+        No
       </label>
     </div>
   </div>
@@ -42,10 +42,13 @@
   </div>
 
   <div class="form-group">
-    <label>Draw a diagram of the accident using street names and signals <span class="ms-required">*</span></label>
-    <button type="button" id="clear-canvas">Clear</button>
+    <label>Draw a diagram of the accident using street names and signals:</label>
+    <div class="ms_canvas_clear_btn">
+      <button type="button" id="clear-canvas">Clear</button>
+    </div>
     <canvas id="ms-canvas" width="432" height="182" style="border: 1px solid #666;"></canvas>
     <input type="hidden" id="ms-canvas-data-url" name="ad_diagram" />
+
   </div>
 
 
@@ -60,15 +63,15 @@
   <label>Did any party admit liability at the scene? <span class="ms-required">*</span></label>
   <div class="ms_radio_btn_group">
     <div class="form-check">
-      <input class="form-check-input ms_cond_show_btn" type="radio" id="isLiableParty" value="yes" data-target="2" name="ad_liable_party" >
+      <input class="form-check-input ms_cond_show_btn" type="radio" id="isLiableParty" value="Yes" data-target="2" name="ad_liable_party" >
       <label class="form-check-label" for="isLiableParty">
-        yes
+        Yes
       </label>
     </div>
     <div class="form-check">
-      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotLiableParty" value="no" data-target="2" checked name="ad_liable_party" >
+      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotLiableParty" value="No" data-target="2" checked name="ad_liable_party" >
       <label class="form-check-label" for="isNotLiableParty">
-        no
+        No
       </label>
     </div>
   </div>
@@ -83,15 +86,15 @@
 
   <div class="ms_radio_btn_group">
     <div class="form-check">
-      <input class="form-check-input ms_cond_show_btn" type="radio" id="isPoliceAttend" value="yes" data-target="3" name="ad_police_attend" >
+      <input class="form-check-input ms_cond_show_btn" type="radio" id="isPoliceAttend" value="Yes" data-target="3" name="ad_police_attend" >
       <label class="form-check-label" for="isPoliceAttend">
-        yes
+        Yes
       </label>
     </div>
     <div class="form-check">
-      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPoliceAttend" value="no" data-target="3" checked name="ad_police_attend" >
+      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPoliceAttend" value="No" data-target="3" checked name="ad_police_attend" >
       <label class="form-check-label" for="isNotPoliceAttend">
-        no
+        No
       </label>
     </div>
   </div>
@@ -116,15 +119,15 @@
 
   <div class="ms_radio_btn_group">
     <div class="form-check">
-      <input class="form-check-input ms_cond_show_btn" type="radio" id="isWitness" value="yes" data-target="4" name="ad_witness" >
+      <input class="form-check-input ms_cond_show_btn" type="radio" id="isWitness" value="Yes" data-target="4" name="ad_witness" >
       <label class="form-check-label" for="isWitness">
-        yes
+        Yes
       </label>
     </div>
     <div class="form-check">
-      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotWitness" value="no" data-target="4" checked name="ad_witness" >
+      <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotWitness" value="No" data-target="4" checked name="ad_witness" >
       <label class="form-check-label" for="isNotWitness">
-        no
+        No
       </label>
     </div>
   </div>
@@ -139,16 +142,16 @@
 
     <div class="ms_radio_btn_group">
       <div class="form-check">
-        <input class="form-check-input ms_cond_show_btn" type="radio" id="isPassengers" value="yes" data-target="5" name="ad_passengers" >
+        <input class="form-check-input ms_cond_show_btn" type="radio" id="isPassengers" value="Yes" data-target="5" name="ad_passengers" >
         <label class="form-check-label" for="isPassengers">
-          yes
+          Yes
         </label>
       </div>
 
       <div class="form-check">
-        <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPassengers" value="no" data-target="5" checked name="ad_passengers" >
+        <input class="form-check-input ms_cond_hide_btn" type="radio" id="isNotPassengers" value="No" data-target="5" checked name="ad_passengers" >
         <label class="form-check-label" for="isNotPassengers">
-          no
+          No
         </label>
       </div>
     </div>
