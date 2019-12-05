@@ -209,3 +209,11 @@ form input[type="password"], form input[type="email"], form input[type="url"], f
 .wp_ms_form_container textarea {
   height: 56px;
 }
+
+.wp_ms_form_container .nav-tabs .nav-link.disabled {
+  color: #ccc;
+}
+
+.wp_ms_form_container .nav-tabs .nav-link.disabled.active {
+  color: #0A42A0;
+}

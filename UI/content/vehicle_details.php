@@ -22,13 +22,13 @@
 
   <div class="form-group">
     <label>Year <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" data-validate="required" name="vd_year" >
+    <input type="text" class="form-control" placeholder="YYYY" data-validate="required" name="vd_year" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 
   <div class="form-group">
     <label>Colour <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" placeholder="YYYY" data-validate="required" name="vd_colour" >
+    <input type="text" class="form-control" data-validate="required" name="vd_colour" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 

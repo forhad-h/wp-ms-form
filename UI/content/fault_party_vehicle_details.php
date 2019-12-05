@@ -24,7 +24,7 @@
 
   <div class="form-group">
     <label>Year <span class="ms-required">*</span></label>
-    <input type="text" class="form-control" data-validate="required" name="fpvd_year" >
+    <input type="text" class="form-control" data-validate="required" placeholder="YYYY" name="fpvd_year" >
     <div class="ms-required-error">This field is required.</div>
   </div>
 

@@ -7,7 +7,7 @@ require_once dirname(__FILE__)."/lib/PHPMailer/src/PHPMailer.php";
 require_once dirname(__FILE__)."/template/index.php";
 
 $emailFrom = "admin@reservecar.technowand.biz";
-$emailTo = "forhad19s@gmail.com";
+$emailTo = "support@technowand.com.au";
 
 $mail = new PHPMailer(TRUE);
 
@@ -48,7 +48,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       $mail->send();
 
       // redirect to home page
-      header("Location: http://reservecar.technowand.biz/");
+      header("Location: http://reservecar.technowand.biz/thank-you/");
       exit();
   } catch (Exception $e) {
       echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

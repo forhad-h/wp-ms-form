@@ -23,6 +23,6 @@
     <a class="nav-link disabled" id="wpmsf-tab-7" data-toggle="tab" href="#wpmsf-content-7" role="tab" aria-controls="wpmsf-content-7" aria-selected="false">Cars Involved</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="wpmsf-tab-8" data-toggle="tab" href="#wpmsf-content-8" role="tab" aria-controls="wpmsf-content-8" aria-selected="false">Detail Description of Accident</a>
+    <a class="nav-link disabled" id="wpmsf-tab-8" data-toggle="tab" href="#wpmsf-content-8" role="tab" aria-controls="wpmsf-content-8" aria-selected="false">Detail Description of Accident</a>
   </li>
 </ul>
